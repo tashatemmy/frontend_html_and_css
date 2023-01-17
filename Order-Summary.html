@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Order-Summary_website</title>
+	<style type="text/css">
+		body {
+			background: hsl(225, 100%, 94%);
+			width: 100%;
+		}
+		.card {
+			background: white;
+			width: 400px;
+			height: 600px;
+			border-radius: 20px;
+			box-shadow: 0px 0px 2px hsl(224, 23%, 55%);
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			margin-bottom: 700px;
+
+		}
+		#new {
+			width: 400px;
+			height: 200px;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+		}
+		div {
+			justify-content: center;
+			text-align: center;
+		}
+		#paragraph {
+			color: grey;
+			font-weight: 100;
+			line-height: 1.4;
+		}
+		.style {
+			background: hsl(225, 100%, 98%);
+			color: hsl(223, 47%, 23%);
+			border-radius: 10px;
+			height: 70px;
+			width: 270px;
+			display: flex;
+			flex-direction: row;
+			margin-left: 70px;
+		}
+		
+		.span {
+			display: block;
+			line-height: 0;
+			margin-bottom: 50px;
+			padding-left: 12px;
+			color: grey;
+
+		}
+		section.style > a:link {
+			color: hsl(223, 47%, 23%);
+		}
+		section.style > a:visited {
+			color: hsl(223, 47%, 23%);
+		}
+		section.style > a:hover {
+			color: hsl(224, 23%, 55%);
+			font-weight: 100;
+		}
+		#link {
+			padding-top: 25px;
+			padding-left: 60px;
+		}
+		#another {
+			background: hsl(245, 75%, 52%);
+			width: 270px;
+			height: 50px;
+			color: white;
+			border-radius: 8px;
+			box-shadow: 7px 7px 5px hsl(224, 23%, 55%);
+			display: flex;
+			margin-left: 70px;
+			margin-bottom: 20px;
+			justify-content: center;
+			align-items: center;
+		}
+		a#another:link {
+			background: hsl(245, 75%, 52%);
+		}
+		a#another:visited {
+			background: hsl(245, 75%, 52%);
+		}
+		a#another:hover {
+			background: hsl(225, 80%, 70%);
+		}
+		.sum {
+			color: lightgrey;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-bottom: 60px;
+			padding-left: 40px;
+		}
+		a.sum:link {
+			color: grey;
+		}
+		a.sum:visited {
+			color: grey;
+		}
+		a.sum:hover {
+			color: black;
+		}
+
+		
+
+		
+	</style>
+</head>
+<body>
+	<img src="/Users/mac/Downloads/order-summary-component-main/images/pattern-background-desktop.svg" />
+	<main class="card">
+		<div>
+		<img id="new" src="/Users/mac/Downloads/order-summary-component-main/images/illustration-hero.svg" />
+		<h2><strong>Order Summary</strong></h2>
+		<p id="paragraph">you can now listen to millions of songs,<br>audiobooks,and podcasts on any device<br>anywhere you like!
+		</p>
+		<section class="style">
+			<img style="padding-left: 10px; padding-top: 10px;" src="/Users/mac/Downloads/order-summary-component-main/images/icon-music.svg" height="50" width="50" />
+			<div class="span">
+				<h6 style="color: black;"><strong>Annual Plan</strong><br></h6>
+				<p>$59.99/year</p>
+			</div>
+				<a id="link" href="#">change</a>
+		</section>
+	</div>
+	<footer>
+		<div>
+			<a id="another"href="#">Proceed to Payment</a>
+			</div>
+			<a class="sum"href="#">Cancel Order</a>
+	</footer>
+</main>
+</body>
+</html>
