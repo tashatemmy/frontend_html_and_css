@@ -1,0 +1,110 @@
+body {
+	background: black;
+}
+main {
+	margin: auto;
+	text-align: center;
+}
+h3 {
+	font-style: italic;
+	color: black;
+	text-decoration: underline;
+	font-weight: 2rem;
+}
+.robot {
+	color: green;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.head {
+	width: 200px;
+	height: 150px;
+	background: green;
+	border-radius: 200px 200px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+
+	
+}
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+#tool {
+	margin-top: 80px;
+	margin-left: 50px;
+	display: flex;
+	flex-direction: row;
+	column-gap: 60px;
+}
+.left-eyes {
+	background: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 200px;
+	
+
+}
+.right-eyes {
+	background: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 200px;
+	
+}
+#body {
+	display: flex;
+	flex-direction: row;
+	column-gap: 10px;
+}
+.left-hand {
+	height: 100px;
+	width: 35px;
+	border-radius: 40px;
+	background-color: green;
+	margin-top: 10px;
+
+}
+.full-body {
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	border-bottom-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+	margin-top: 10px;
+}
+.right-hand {
+	height: 100px;
+	width: 35px;
+	border-radius: 40px;
+	background-color: green;
+	margin-top: 10px;
+
+}
+#lower-part {
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+.left-leg {
+	height: 80px;
+	width: 35px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: green;
+	margin-top: -10px;
+
+}
+.left-leg:hover {
+	transform: rotate(20deg);
+}
+.right-leg {
+	height: 80px;
+	width: 35px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: green;
+	margin-top: -10px;
+}
